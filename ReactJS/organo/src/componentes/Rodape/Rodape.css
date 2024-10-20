@@ -1,0 +1,35 @@
+.footer {
+    background-color: #6278F7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4.5% 0;
+    max-width: 100%;
+}
+
+.footer .redesSociais ul li {
+    display: inline-block;
+    margin-right: 32px;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.footer .redesSociais ul li a img {
+    width: 20px;
+    height: 20px;    
+}
+
+.footer ul li:last-child {
+    margin-right: 0;
+}
+
+.footer .logo img {
+    width: 130px;
+    height: 53px;     
+}
+
+.footer .texto {
+    color: #fff;
+    font-size: 18px;
+}
